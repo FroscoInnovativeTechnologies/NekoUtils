@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+#===================#
+#Scrot script config#
+#===================#
+
+#Sets the background frame color
+FRAME_COLOR="#434c5e"
+#Sets the padding (thickness) of the frame
+FRAME_PADDING="20"
+#Sets how dark the shadows are
+FRAMED_SHADOW_OPACITY="40"
+
+

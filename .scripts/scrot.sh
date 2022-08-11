@@ -1,10 +1,8 @@
 #!usr/bin/sh
 
-rm -f /tmp/*_scrot*.png
+. "${HOME}/.Neko_Var"
 
-FRAME_COLOR="#434c5e"
-FRAME_PADDING="20"
-FRAMED_SHADOW_OPACITY="40"
+rm -f /tmp/*_scrot*.png
 
 scrot -sfbe 'mv -f $f /tmp/' -l style=dash,width=3,color="#2be491"
 
