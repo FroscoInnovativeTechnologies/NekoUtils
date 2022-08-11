@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/env python3
 import subprocess
 
 def runc(cmd):
@@ -9,4 +9,4 @@ message = input("Commit -m> ")
 
 runc(f"git add {files}")
 runc(f"git commit -m '{message}'")
-runc("git push")
+print(runc("git push"))
